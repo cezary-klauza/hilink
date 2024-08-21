@@ -62,7 +62,7 @@ const CampSite = ({
 };
 
 const Camp = () => {
-  const div = useRef<LegacyRef<HTMLDivElement>>();
+  const div = useRef<HTMLDivElement>(null);
   const moveToggle = () => {
     document.getElementById("1")?.scrollIntoView();
   };
